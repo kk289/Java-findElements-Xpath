@@ -1,5 +1,15 @@
 <h2> Extract Table Data and Verify Name Using Selenium WebDriver </h2>
 
+Many times you need to extract webpage table data to compare and verify as per test case using selenium webdriver software testing tool. Here, we are testing whether the given input name matched with the listed names or not. We are extracting the data from webpage using [XPath](https://en.wikipedia.org/wiki/XPath#:~:text=XPath%20(XML%20Path%20Language)%20is,Wide%20Web%20Consortium%20(W3C).). 
+
+<p align="center">
+	<img width="700px" src="Image/webpage.png" align="center"/>
+</p>
+
+<br>
+
+Lets start by following step:
+
 Platform supporting Maven: [IntelliJ IDEA CE](https://www.jetbrains.com/idea/download/download-thanks.html?platform=mac&code=IIC)
 
 1. Create a new Project
@@ -181,7 +191,7 @@ public class verifyName {
 
         // Testing
         String headerName = "Top Tutorial";    // change it according to header name
-        String tutorialName = "nepal Tutorial";
+        String tutorialName = "HTML Tutorial";
         boolean isTutorialFound = false;  // change string name according to header name
 
         // Loop to check if given name is listed inside the selected header
@@ -215,15 +225,26 @@ public class verifyName {
 }
 ```
 
-Let's run the "mailAttachment" class. We get following result: 
+We are extracting the information of "Top Tutorial" first. If you need to choose other header, just follow the code and comment there, all instructions are given. We are testing whether the "HTML Tutorial" is listed under "Top Tutorial" or not. If it is listed, the test is passed, and if not, it is not going to pass.
+
+Let's run the "verifyName" class. 
+
+We get following result: 
 
 <p align="center">
-	<img width="900px" src="Image/attach2.png" align="center"/>
-	<br>
-	<br>
-	<img width="900px" src="Image/attach1.png" align="center"/>
+	<img width="800px" src="Image/found.png" align="center"/>
 </p>
 
-The program run successfully. Make sure you check the inbox whether receiver got any email or not.
+<br>
+
+The program runs successfully. It print out all information including how many rows (data) are there under the selected header. From testing part, it found the "HTML Tutorial" under "Top Tutorial" header. 
+
+We can also input some other name like "nepal Tutorial" which is not listed there, and we should expect the following result.
+
+<p align="center">
+	<img width="800px" src="Image/notFound.png" align="center"/>
+</p>
+
+<br>
 
 <b>Thank you. Let me know if you have any questions.</b>
