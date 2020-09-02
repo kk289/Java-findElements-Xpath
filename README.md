@@ -237,7 +237,7 @@ We get following result:
 
 <br>
 
-The program runs successfully. It print out all information including how many rows (data) are there under the selected header. From testing part, it found the "HTML Tutorial" under "Top Tutorial" header. 
+The program runs successfully. It print out all information including how many rows (data) are there under the selected header. For testing part, it found the "HTML Tutorial" under "Top Tutorial" header. 
 
 We can also input some other name like "nepal Tutorial" which is not listed there, and we should expect the following result.
 
@@ -246,5 +246,31 @@ We can also input some other name like "nepal Tutorial" which is not listed ther
 </p>
 
 <br>
+
+
+Lets extract the information of "Top References" now. We just need to select number 2 for the Top References header. After we finish rearranging code, let's re-run the "verfiyName" class. We get following result, where we have to extract the table data, and for testing part, it found the "HTML Reference" under "Top References" header.
+
+<p align="center">
+    <img width="800px" src="Image/reference.png" align="center"/>
+</p>
+
+<br>
+
+Now Lets try "Top Examples". We get following result, where we have to extract the table data, and for testing part, it found the "W3.CSS Example" under "Top Examples" header.
+
+<p align="center">
+    <img width="800px" src="Image/example.png" align="center"/>
+</p>
+
+<br>
+
+ Now it time to try last header which is "Web Certificates". We get following result, where we have to extract the table data, and for testing part, it found the "Bootstrap Certificate" under "Web Certificates" header.
+
+<p align="center">
+    <img width="800px" src="Image/web.png" align="center"/>
+</p>
+
+<br>
+
 
 <b>Thank you. Let me know if you have any questions.</b>
