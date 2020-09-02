@@ -1,6 +1,6 @@
 <h2> Extract Table Data and Verify Name Using Selenium WebDriver </h2>
 
-Many times you need to extract webpage table data to compare and verify as per test case using selenium webdriver software testing tool. Here, we are testing whether the given input name matched with the listed names or not. We are extracting the data from webpage using [XPath](https://en.wikipedia.org/wiki/XPath#:~:text=XPath%20(XML%20Path%20Language)%20is,Wide%20Web%20Consortium%20(W3C).). 
+Many times we need to extract webpage table data to compare and verify as per test case using selenium webdriver software testing tool. Here, we are testing whether the given input name matched with the listed names or not. We are extracting the data from webpage using [XPath](https://en.wikipedia.org/wiki/XPath#:~:text=XPath%20(XML%20Path%20Language)%20is,Wide%20Web%20Consortium%20(W3C).). 
 
 <p align="center">
 	<img width="700px" src="Image/webpage.png" align="center"/>
